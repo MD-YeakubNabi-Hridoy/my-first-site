@@ -46,7 +46,7 @@
 .home{
     height:753px;
     background-image: url(./images/home-banner.jpg);
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 
 }
 .home h3{
@@ -77,6 +77,7 @@
     font-weight: 600;
     margin-top: 20px;
     border: none;
+    cursor: pointer;
 }
 .btn:hover{
     margin-left: 250px;
@@ -104,3 +105,103 @@
     color: black;
     transition: ease 1s;
 }
+.section{
+    background-color: #EAEDF2;
+    margin top:60px;
+    margin-left:92px;
+    height: 100vh;
+}
+.section h1{
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-left: 30px;
+    /* border-bottom: 2px solid #D9832E; */
+}
+
+.section p{
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+    word-spacing: 5px;
+    padding-left: 30px;
+    padding-top: 7px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner2{
+    margin-top:80px;
+}
+.banner2 img{
+    width:400px;
+    height: 400px;
+    margin: 20px;
+    margin-left: 40px;
+    border: 18px solid white;
+}
+.description2{
+    margin-top: 0px;
+    padding: 0px;
+}
+.description2 h1{
+    margin: 0px;
+    padding-top: 130px;
+    font-weight: 550;
+}
+.description2 h3{
+    padding-left: 30px;
+    padding-top: 7px;
+    font-weight: 520;
+    word-spacing: 5px;
+}
+.description2 h3 span{
+    color: #D9832E;
+}
+.description2 p{
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    color: rgb(97, 97, 97);
+    font-size: 16px;
+    padding-right: 400px;
+}
+.bio{
+    display: flex;
+}
+.bio ul{
+    list-style: none;
+    padding-top: 10px;
+}
+.bio ul li{
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+.btn2{
+    margin-left: 50px;
+    background-color: #D9832E;
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn2:hover{
+    margin-left: 50px;
+    background-color: #000000;
+    font-size: 15px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    transition: ease 1s;
+}
+
+
